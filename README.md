@@ -21,3 +21,14 @@ proximo -url https://my-cloud-run-endpoint.run.app
 
 This will start the proxy on port 8080, proxying requests to the given Cloud Run URL and adding the Authorization 
 header with your Google credentials. You should be able to access the endpoint at http://localhost:8080.
+
+
+## Building
+
+It should be easy to build Proximo from source:
+
+```shell
+make
+```
+
+This will build the proximo binary and output it to the ./builds directory based on the arch you build it in.
